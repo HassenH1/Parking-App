@@ -10,8 +10,53 @@ body {
   /* overflow: hidden; */
 }
 
+/*--------------------- HeaderSection -----------------*/
+
+.logo-brand {
+  color: #ffffff;
+}
+.logo-brand .text-gray{
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+/*----------X----------- Header Section --------X---------*/
+
+
+
+
+
+
+/*--------------------- Nav-Bar Section -----------------*/
+#navbarNav{
+  margin-left: 55rem;
+  font-size: 20px;
+}
+
+.nav-link{
+  margin-right: 2rem;
+
+}
+
+#navbarNav .nav-link:hover{
+  color: #ffffff;
+}
+
+#navbarNav .nav-link{
+  color: gray
+}
+
+
+/*---------X------------ Nav-Bar Section ----------X------- */
+
+
 #custom-navbar {
-  background-color: #bf3a3a !important;
+  background-color:  #191e42 !important;
 }
 
 #custom-img {
