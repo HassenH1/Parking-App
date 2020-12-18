@@ -10,31 +10,16 @@ body {
   /* overflow: hidden; */
 }
 
-/*--------------------- HeaderSection -----------------*/
-
-.logo-brand {
-  color: #ffffff;
-}
-.logo-brand .text-gray{
-  text-decoration: none;
-
-}
-
-
-
-
-
-
-/*----------X----------- Header Section --------X---------*/
-
-
-
-
-
 
 /*--------------------- Nav-Bar Section -----------------*/
+
+.container-fluid .navbar-brand{
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
 #navbarNav{
-  margin-left: 55rem;
   font-size: 20px;
 }
 
@@ -44,19 +29,21 @@ body {
 }
 
 #navbarNav .nav-link:hover{
-  color: #ffffff;
+  color: #808080
 }
 
 #navbarNav .nav-link{
-  color: gray
+  color: #ffffff
 }
+
+
 
 
 /*---------X------------ Nav-Bar Section ----------X------- */
 
 
 #custom-navbar {
-  background-color:  #191e42 !important;
+  background-color:  #0D47A1 !important;
 }
 
 #custom-img {
