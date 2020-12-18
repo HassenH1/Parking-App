@@ -67,3 +67,14 @@ body {
   background-color: black;
   color: #ffffff;
 }
+
+.about-div {
+  align-items: center;
+  text-align: center;
+  height: 75%;
+  margin: 7rem 0;
+}
+
+#about-col {
+  min-height: 50%;
+}
