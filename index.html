@@ -76,9 +76,9 @@
     <section class="overflow-hidden">
       <!-- <div class="container-fluid"> -->
         <!-- logo here TODO: NEED TO CHANGE THIS-->
-        <div class="row vh-100">
+        <div class="row min-vh-100">
           <div
-            class="col text-center d-flex align-items-center justify-content-center position-relative"
+            class="col-xs-6 col-md-4 mobile-margin visible-xs text-center d-flex align-items-center justify-content-center position-relative"
           >
             <img
               src="https://icon-library.com/images/free-parking-icon/free-parking-icon-5.jpg"
@@ -89,9 +89,9 @@
           <!-- end of logo -->
           <!-- middle images -->
           <div
-            class="col-5 text-center d-flex align-items-center justify-content-center position-relative"
+            class="col-xs-6 col-md-4 text-center d-flex align-items-center justify-content-center position-relative"
           >
-            <div class="h-75 w-100">
+            <div>
               <img
                 src="./img/phone.png"
                 class="rounded mx-auto d-block w-100 h-75 animate__animated animate__zoomIn"
@@ -110,7 +110,7 @@
           <!-- end of middle image -->
           <!-- brand name here -->
           <div
-            class="col text-center d-flex align-items-center justify-content-center flex-column position-relative"
+            class="col-xs-6 col-md-4 text-center d-flex align-items-center justify-content-center flex-column position-relative"
           >
             <h1
               class="display-4 font-weight-bold animate__animated animate__fadeInRight brand-header"
@@ -148,7 +148,7 @@
     <!-- end of First page -->
 
     <!-- second page here -->
-    <section class="overflow-hidden vh-100 second-page" id="about">
+    <section class="overflow-hidden min-vh-100 second-page" id="about">
       <div class="container h-100 px-4">
         <div class="row text-center about-div">
           <div class="col about-col" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="7000">
@@ -184,31 +184,31 @@
 
 
     <!-- Start Of Fourth Page -->
-    
+     <section class="mx-auto min-vh-100">
+       <div class="container w-50 pt-3 px-5">
+         <p class="h1">LET'S TALK</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat tenetur vero nam soluta excepturi reiciendis, fuga voluptates quod in harum!</p>
+         <form>
+         <div class="contact-col">
+           <label for="name-area" class="form-label">NAME*</label>
+           <input class="form-control" id="exampleFormControlTextarea1" >
+         </div>
+         <div class="contact-col">
+           <label for="input-email" class="form-label">EMAIL*</label>
+           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+         </div>
+         <div class="contact-col" >
+           <label for="Text-area" class="form-label">HOW CAN WE HELP?*</label>
+           <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+           <div class="d-grid gap-2 col-10 mx-auto" >
+             <button type="submit" value="submit" class="submit-btn btn-dark" >SEND</button>
+           </div>
+           </div>
+         </form>
 
-     <section class="mx-auto" style="width: 550px;"  >
-      <p class="h1">LET'S TALK</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat tenetur vero nam soluta excepturi reiciendis, fuga voluptates quod in harum!</p>
-      <form>
-      <div class="contact-col">
-        <label for="name-area" class="form-label">NAME*</label>
-        <input class="form-control" id="exampleFormControlTextarea1" >
-      </div>
-      <div class="contact-col">
-        <label for="input-email" class="form-label">EMAIL*</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="contact-col" >
-        <label for="Text-area" class="form-label">HOW CAN WE HELP?*</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-        <div class="d-grid gap-2 col-10 mx-auto" >
-          <button type="submit" value="submit" class="submit-btn btn-dark" >SEND</button>
-        </div>
-        </div>
-      </form>
+       </div>
     </section> 
-
-
+    
     <!----------------- End Of Fourth Page ---------X---------->
 
     <script
