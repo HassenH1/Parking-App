@@ -1,4 +1,5 @@
 AOS.init();
+const rellax = new Rellax(".rellax");
 
 const mybutton = document.querySelector(".top-page-arrow");
 

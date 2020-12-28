@@ -33,6 +33,11 @@ body {
   border-radius: 40%;
 }
 
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .mobile-margin {
   margin-top: 2rem;
 }
@@ -151,21 +156,17 @@ p {
 
 /*---------X------------ Contact-Page ----------X------- */
 
-
 /*--------------------- Footer-Page ----------------- */
-.font-style{
+.font-style {
   text-align: center;
   font-size: 1.5rem;
 }
-.font-style .fa{
-  margin: .5rem;
-  
+.font-style .fa {
+  margin: 0.5rem;
 }
-.copyright{
+.copyright {
   color: gray;
   font-size: 13px;
 }
-
-
 
 /*---------X------------ Footer-Page ----------X------- */
