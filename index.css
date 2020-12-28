@@ -150,3 +150,22 @@ p {
 }
 
 /*---------X------------ Contact-Page ----------X------- */
+
+
+/*--------------------- Footer-Page ----------------- */
+.font-style{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.font-style .fa{
+  margin: .5rem;
+  
+}
+.copyright{
+  color: gray;
+  font-size: 13px;
+}
+
+
+
+/*---------X------------ Footer-Page ----------X------- */
