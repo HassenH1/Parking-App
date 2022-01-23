@@ -5,6 +5,7 @@
 ## Steps
 
 1. Never Push/Pull from **main** branch!!!
+
 2. Always pull from **develop** branch first before creating a new branch
 
 - If not in main branch to get to main branch type -> git checkout main
