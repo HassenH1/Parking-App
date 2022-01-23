@@ -1,13 +1,13 @@
 # Parking-App
 
 ## Steps
-
-1. Always pull from main first before creating a new branch
+1. Never Push/Pull from **main** branch!!!
+2. Always pull from **develop** branch first before creating a new branch
   - If not in main branch to get to main branch type -> git checkout main
   - Once in main type -> git pull upstream main
-2. Create new Branch and switch to it
+3. Create new Branch and switch to it
   - git checkout -b [branch name]
-3. When finished with your Ticket aka task Then 
+4. When finished with your Ticket aka task Then 
   - git add .
   - git commit -m "whatever message you want here"
   - git push upstream [your branch name here]
