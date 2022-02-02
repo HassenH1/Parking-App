@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: #2e2759;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+
+
+    
+}
+
+.NavLink{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem ;
+    padding-right: 2rem;
+    list-style-type: none;
+    
+}
+
+.NavLink a{
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+ul a button{
+    color: #2e2759;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+button{
+    padding: 10px;
+    background-color: #ffff;
+    border-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+ul a button:hover{
+    background: #b9b9b9;
+    transition: ease-in-out .3s;
+}
+
+
+.links a:hover{
+    background-color: #b9b9b9;
+    transition: ease-out .3s;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+}
+
+.logo{
+    margin: 1rem 0 0 3rem;
+}
+
+.logo a{
+    color: 	#ffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: serif, sans serif, cursive, fantasy,  monospace;
+    
+}
