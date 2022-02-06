@@ -1,8 +1,12 @@
 import React from 'react';
+import InitialRoutes from './routes/InitialRoutes/InitialRoutes';
 
 function App() {
   return (
-    <div className="container border border-danger text-center">Bootstrap is Working now!!</div>
+    <>
+      {/* <Navbar/> <=====================replace this with navbar */}
+      <InitialRoutes /> {/* This has Routes to switch pages, dont touch this */}
+    </>
   );
 }
 
