@@ -1,16 +1,8 @@
-import React from "react";
-import "./App.css";
-import     t from './'
+import React from 'react';
 
 function App() {
-  const v     = 10;
-  function test =    () => {
-    
-  }
   return (
-    <div className="container border border-danger text-center">
-      Bootstrap is Working now!!
-    </div>
+    <div className="container border border-danger text-center">Bootstrap is Working now!!</div>
   );
 }
 
